@@ -12,8 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="lv_dht12.lvlib" Type="Library" URL="../lv_dht12.lvlib"/>
-		<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="../../lv_i2c_hal/lv_i2c_hal.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="../../lv_i2c_hal/lv_i2c_hal.lvlib"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
