@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-07-10 22:43:46" Modified_Date="2020-07-10 22:46:15" Creator="user" Comments="" ID="053509a81193ac601b43f16805f4a955">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-07-10 22:43:46" Modified_Date="2020-07-10 23:11:45" Creator="user" Comments="" ID="79556d905f399b3f26e45749da5c73e7">
   <Library_General_Settings>
     <Package_File_Name>lv_dht12</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\VIPM\Build</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>lv_i2c_hal &gt;=1.0.0.1</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -111,9 +113,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -241,7 +240,7 @@
         <Path>DHT12 Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9378C3CC414477748F77792D17E30D03</GUID>
+      <GUID>FD8E4027C31996791B1380955D365B9C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
