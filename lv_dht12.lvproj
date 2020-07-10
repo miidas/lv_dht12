@@ -14,7 +14,7 @@
 		<Item Name="lv_dht12.lvlib" Type="Library" URL="../lv_dht12.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_dht12/lv_i2c_hal.lvlib"/>
+				<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_i2c_ad2/lv_i2c_hal.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
