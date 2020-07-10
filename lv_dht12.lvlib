@@ -6,6 +6,10 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="DHT12 Read.vi" Type="VI" URL="../DHT12 Read.vi"/>
-	<Item Name="DHT12 Get Temperature.vi" Type="VI" URL="../DHT12 Get Temperature.vi"/>
-	<Item Name="DHT12 Get Humidity.vi" Type="VI" URL="../DHT12 Get Humidity.vi"/>
+	<Item Name="DHT12 Get Temperature.vi" Type="VI" URL="../DHT12 Get Temperature.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="DHT12 Get Humidity.vi" Type="VI" URL="../DHT12 Get Humidity.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
