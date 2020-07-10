@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-07-10 22:43:46" Modified_Date="2020-07-11 00:05:18" Creator="user" Comments="" ID="8361531102e36c5f3ca2d51041f977c6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-07-10 22:43:46" Modified_Date="2020-07-11 00:24:10" Creator="user" Comments="" ID="ea1a3bbc70d53a7813e8834f5038b1e8">
   <Library_General_Settings>
     <Package_File_Name>lv_dht12</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\VIPM\Build</Library_Output_Folder>
@@ -240,7 +240,7 @@
         <Path>DHT12 Read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6CC8A233C3E1FDAAEF508B05C1B7A50</GUID>
+      <GUID>E8EC898C9EF53A03A8F5DED814B9BFA7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
